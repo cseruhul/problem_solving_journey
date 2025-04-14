@@ -1,0 +1,77 @@
+```cpp
+Problem - 1 --> A_Walking_Master
+
+আমাদের source point হলোঃ (a, b) এবং destination point হলোঃ (c,d)
+
+Thinking process:
+01. আমাদের starting point থেকে destination point এ যেতে সবার আগে দেখতে হবে যে আমরা কয় কয় উপায়ে move করতে পারি। যেটা দেওয়া আছে সেটা হলোঃ আমরা যদি (x, y) পজিশন এ অবস্থান করি তাহলে আমরা দুইটি দিকে যাইতে পারবো। আর সেটা হলোঃ (x+1, y+1) অর্থাৎ diagonal বরাবর। এবং আরেকটি হলোঃ (x-1, y) অর্থাৎ x অক্ষ বরাবর পেছনে। এখান থেকে যেটা বুঝতে পারি সেটা হলো আমাদের x  এর মান বাড়তে অথবা কমতে পারবে। কিন্তু y এর মান সব সময় বাড়তেই থাকবে যখন আমরা আমাদের source থেকে destination এর দিকে যেতে থাকবো। তাহলে এখান থেকে আমরা একটি decision নিতে পারি সেটা হলোঃ আমাদের source/starting point যদি বড় হয় আর destination point যদি ছোট হয় অর্থাৎ b > d হয় অথবা d-b > 0 হয় তাহলে আমরা source থেকে destination এ যেতে পারবো না। আমাদের অউটপুট হবেঃ -1
+
+02. এরপর যদি আমাদের solution থাকে, তাহলে প্রথমে আমরা diagonal বরাবর কতটুকু যেতে পারি সেটার হিসাব করবো। আসলে আমাদের starting point থেকে destination point এর y অক্ষ বরাবর যতটুকু distance আমাদের diagonal বরাবর ততটুকুই যেতে হবে। অর্থাৎ আমাদের d - b এর মান বের করতে হবে। যেটা আমাদের diagonal বরাবর দূরত্ব, diagonal_dist = d - b;
+
+03. তাহলে আমরা এখন আমাদের starting point (a, b) থেকে diagonal বরাবর যদি যাই তাহলে আমাদের নতুন point হবে (a + diagonal_dist, b + diagonal_dist).
+
+04. এইবার আমরা আমাদের destination point x-অক্ষের যেই সমান্তরাল রেখার উপরে অবস্থিত (a + diagonal_dist, b + diagonal_dist) point ও সেই একই রেখার উপরে অবস্থিত। এখন আমাদের এই পয়েন্ট থেকে পেছনে যেতে হবে। কারন আমরা x -অক্ষ বরাবর পেছনে যেতে পারি। পেছনে যেতে হলে (a + diagonal_dist, b + diagonal_dist) point এর x স্থানাংক (a + diagonal_dist) এর মান পরিবর্তন হবে কিন্তু y স্থানাংক (b + diagonal_dist) এর মানের কোন পরিবর্তন হবে না। কারন আমরা একই লাইনে পেছনের দিকে যাইতেছি। x স্থানাংক (a + diagonal_dist) এর মান পরিবর্তন করতে হবে left_distance এর সমান। তাহলে x স্থানাংক হবেঃ (a + diagonal_dist - left_distance) তাহলে আমাদের নতুন যে point পাওয়া গেলো সেটিই আসলে আমাদের destination point (c, d);
+
+05. এখন আমরা যদি (a + diagonal_dist - left_distance, b + diagonal_dist) কে (c, d) এর সাথে তুলনা করি। তাহলে দেখতে পাই, 
+c = a + diagonal_dist - left_distance ----- (i)
+d = b + diagonal_dist ------------(ii)
+
+(ii) থেকে আমরা পাই-
+d = b + diagonal_dist
+diagonal_dist = d - b; -------- (iii)
+
+(i) থেকে-
+c = a + diagonal_dist - left_distance
+
+left_distance = a + diagonal_dist - c;
+
+06. এখানে আবার যদি left_distance < 0 অর্থাৎ c - a > diagonal_dist হয় তাহলে আবার আমরা আমাদের destination এ পৌছাইতে পারবো না। তখনও, আমাদের অউটপুট হবেঃ -1;
+
+07. এ ছাড়া আমাদের আউটপুট হবেঃ diagonal_dist + left_distance;
+
+
+CODE:
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+
+class Ruhul_Amin
+{
+public:
+    void solve()
+    {
+        ll a, b, c, d, diagonal_dist, left_distance;
+        cin >> a >> b >> c >> d;
+
+        diagonal_dist = d - b;
+
+        if (diagonal_dist < 0 || c - a > diagonal_dist)
+        {
+            cout << -1 << endl;
+        }
+        else
+        {
+            left_distance = a + diagonal_dist - c;
+            cout << diagonal_dist + left_distance << endl;
+        }
+    }
+};
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    Ruhul_Amin ruhul;
+    int t;
+    cin >> t;
+
+    while (t--)
+        ruhul.solve();
+
+    return 0;
+}
+
+
+```

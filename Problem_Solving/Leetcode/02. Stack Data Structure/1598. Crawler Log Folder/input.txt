@@ -1,0 +1,4 @@
+    // vector<string> logs{"d1/", "d2/", "../", "d21/", "./"};
+    // vector<string> logs{"d1/", "d2/", "./", "d3/", "../", "d31/"};
+    // vector<string> logs{"d1/", "../", "../", "../"};
+    vector<string> logs{"./", "../", "./"};

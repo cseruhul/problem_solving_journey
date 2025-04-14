@@ -1,0 +1,5 @@
+ab#c ad#c
+ab## c#d#
+a#c b
+a##c #a#c
+y#fo##f y#f#o##f

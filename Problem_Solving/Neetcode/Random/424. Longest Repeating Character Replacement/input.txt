@@ -1,0 +1,2 @@
+XYYX 2
+AAABABB 1

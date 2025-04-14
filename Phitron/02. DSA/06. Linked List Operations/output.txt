@@ -1,0 +1,8 @@
+Size of the linked List is: 9
+5 2 8 3 4 10 14 3 8 
+100 5 2 8 3 4 10 14 3 8 
+Size of the linked List is: 10
+100 5 2 8 3 4 10 14 3 8 200 
+Size of the linked List is: 11
+100 5 2 8 3 300 4 10 14 3 8 200 
+Size of the linked List is: 12

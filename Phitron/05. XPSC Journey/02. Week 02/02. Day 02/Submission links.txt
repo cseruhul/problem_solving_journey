@@ -1,0 +1,4 @@
+Week 2 | Topicwise | STL - 1:
+1) https://codeforces.com/contest/1927/submission/314280635
+2) https://codeforces.com/contest/381/submission/314280778
+3) https://codeforces.com/contest/44/submission/314280885

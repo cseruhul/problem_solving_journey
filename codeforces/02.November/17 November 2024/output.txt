@@ -1,0 +1,1 @@
+Enter a number: Odd Divisors of 6 are: 1 3 

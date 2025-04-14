@@ -1,0 +1,1 @@
+printf("%d[%d] sum = %d\n", freq[i], i, sum);

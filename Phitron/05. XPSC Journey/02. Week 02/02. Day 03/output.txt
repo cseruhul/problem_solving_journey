@@ -1,0 +1,12 @@
+Petya->Ivanov
+Vasya->Petrov
+Misha->ILoveCodeforces
+ILoveCodeforces->MikeMirzayanov
+Petrov->VasyaPetrov123
+
+
+Petrov VasyaPetrov123
+Petya Ivanov
+Vasya VasyaPetrov123
+ILoveCodeforces MikeMirzayanov
+Misha MikeMirzayanov
