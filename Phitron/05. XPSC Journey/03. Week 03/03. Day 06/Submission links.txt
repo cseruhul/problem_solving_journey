@@ -1,4 +1,1 @@
 Week 3 | Topicwise | STL - 2:-
-1) https://codeforces.com/contest/2000/submission/315758942
-2) https://codeforces.com/contest/1468/submission/315820211
-3) https://codeforces.com/contest/1793/submission/315829513
