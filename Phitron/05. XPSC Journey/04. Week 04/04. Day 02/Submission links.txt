@@ -1,0 +1,4 @@
+Week 4 | Topicwise | Two Pointers & Slidinig Window - 1
+1) https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/submission/316409763
+2) Max Sum Subarray of size K (GeeksforGeeks)
+3) First negative in every window of size k (GeeksforGeeks)
