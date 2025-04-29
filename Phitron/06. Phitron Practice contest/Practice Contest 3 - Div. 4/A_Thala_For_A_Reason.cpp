@@ -7,7 +7,13 @@ class Ruhul_Amin
 public:
     void solve()
     {
-        cout << "Hello Worls." << endl;
+        int n;
+        cin >> n;
+
+        if (n == 7)
+            cout << "THALA";
+        else
+            cout << "SADGE";
     }
 };
 

@@ -7,7 +7,7 @@ class Ruhul_Amin
 public:
     void solve()
     {
-        cout << "Hello Worls." << endl;
+        cout << "Hello World." << endl;
     }
 };
 

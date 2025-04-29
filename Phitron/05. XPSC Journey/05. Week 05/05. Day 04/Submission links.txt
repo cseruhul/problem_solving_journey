@@ -1,0 +1,10 @@
+Week 5:-
+1) https://codeforces.com/contest/2005/submission/317691283
+2) https://codeforces.com/contest/1988/submission/317706959
+
+Week 5 | Topicwise | Two Pointers & Slidinig Window - 2
+3) https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/submission/317710520
+4) https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/submission/317718337
+5) https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/submission/317738837
+6) Longest Substring with K Uniques (GeeksforGeeks)
+7) https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/submission/317744940
