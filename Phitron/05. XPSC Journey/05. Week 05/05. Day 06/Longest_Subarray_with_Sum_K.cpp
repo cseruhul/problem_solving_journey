@@ -10,36 +10,32 @@ public:
         int n, k, ans = 0;
         cin >> n >> k;
         vector<int> arr(n);
-
         for (int i = 0; i < n; i++)
             cin >> arr[i];
 
-        vector<int> pref_sum(n);
-        vector<int> suff_sum(n);
-        pref_sum[0] = arr[0];
-
-        for (int i = 1; i < n; i++)
-        {
-            pref_sum[i] = pref_sum[i - 1] + arr[i];
-        }
-        for (auto item : pref_sum)
-            cout << item << " ";
-        cout << endl;
-
-        suff_sum[n - 1] = arr[n - 1];
-        for (int i = n - 2; i >= 0; i--)
-        {
-            suff_sum[i] = suff_sum[i + 1] + arr[i];
-        }
-        for (auto item : suff_sum)
-            cout << item << " ";
-        cout << endl;
+        unordered_map<int, int> mp_indx;
+        int sum = 0;
 
         for (int i = 0; i < n; i++)
         {
-            if (pref_sum[i] == k)
+            sum += arr[i];
+
+            if (sum == k)
+            {
                 ans = i + 1;
+            }
+
+            if (mp_indx.find(sum - k) != mp_indx.end())
+            {
+                ans = max(ans, i - mp_indx[sum - k]);
+            }
+
+            if (mp_indx.find(sum) == mp_indx.end())
+            {
+                mp_indx[sum] = i;
+            }
         }
+
         cout << ans << endl;
     }
 };
