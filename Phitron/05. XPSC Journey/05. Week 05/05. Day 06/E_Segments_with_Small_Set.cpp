@@ -8,27 +8,27 @@ public:
     void solve()
     {
         ll n, k;
-        cin >> n, k;
+        cin >> n >> k;
         vector<ll> arr(n);
 
-        for (int i = 0; i < n; i++)
+        for (ll i = 0; i < n; i++)
         {
             cin >> arr[i];
         }
 
         unordered_map<ll, ll> mp;
-        int l = 0, r = 0, ans = 0;
+        ll l = 0, r = 0, ans = 0;
 
         while (r < n)
         {
             mp[arr[r]]++;
-            if (mp.size() <= 3)
+            if (mp.size() <= k)
             {
                 ans += r - l + 1;
             }
             else
             {
-                while (mp.size() > 3)
+                while (mp.size() > k)
                 {
                     mp[arr[l]]--;
                     if (mp[arr[l]] == 0)
@@ -36,7 +36,7 @@ public:
                     l++;
                 }
 
-                if (mp.size() <= 3)
+                if (mp.size() <= k)
                 {
                     ans += r - l + 1;
                 }
