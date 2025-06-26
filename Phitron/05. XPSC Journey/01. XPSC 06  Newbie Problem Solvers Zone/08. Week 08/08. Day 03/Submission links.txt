@@ -1,0 +1,5 @@
+Week 8 | Bit Manipulation - 2:-
+1) https://cses.fi/paste/cbf40ef9f36f783ec60904/
+2) https://cses.fi/paste/e4e2ce236f3b13bbc60d5e/
+3) https://cses.fi/paste/2908182d147e2545c60fa5/
+4) https://www.codechef.com/viewsolution/1160908699

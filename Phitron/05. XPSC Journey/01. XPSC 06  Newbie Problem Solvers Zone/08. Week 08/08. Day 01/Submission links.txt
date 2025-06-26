@@ -1,0 +1,4 @@
+Week 8 | Bit Manipulation - 2:-
+1) https://codeforces.com/contest/1097/submission/320266509
+2) https://codeforces.com/contest/1988/submission/320271820
+3) https://codeforces.com/contest/1420/submission/320274963

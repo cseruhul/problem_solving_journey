@@ -1,0 +1,1 @@
+e.first << " " << current_movie.second << endl;

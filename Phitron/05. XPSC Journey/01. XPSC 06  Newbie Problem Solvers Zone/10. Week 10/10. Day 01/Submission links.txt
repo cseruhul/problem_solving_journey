@@ -1,0 +1,16 @@
+Week 8 | Bit Manipulation - 2:-
+1) https://cses.fi/paste/46ee679c1be5b3f4c84552/ 
+2) https://cses.fi/paste/0ba8d38836977ae9c84d47/
+3) https://cses.fi/paste/938ff472733b467ec865c3/
+
+Week 9 | Math And Number Theory - 1:-
+4) https://cses.fi/paste/a840c99b6db97932c84219/
+5) https://cses.fi/paste/e99a4ed600885125c8433a/
+6) https://cses.fi/paste/e439d71b98618867c84433/
+7) https://cses.fi/paste/39a97f9495c2f643c84c01/
+
+Week 10 | Topic wise | Binary Search - 1
+8) https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/submission/322318468
+9) https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/submission/322327960
+10) https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/submission/322328338
+11) https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/submission/322329012

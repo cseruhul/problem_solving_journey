@@ -1,0 +1,11 @@
+Week 7 | Bit Manipulation - 1:-
+1) https://www.codechef.com/viewsolution/1159952977
+2) https://www.codechef.com/viewsolution/1159963014
+3) https://www.codechef.com/viewsolution/1159964180
+4) https://www.codechef.com/viewsolution/1160028239
+5) https://codeforces.com/contest/1726/submission/319899719
+6) https://codeforces.com/contest/1559/submission/319903663
+7) https://codeforces.com/contest/1635/submission/319907750.
+8) https://codeforces.com/contest/1991/submission/319918033
+9) https://codeforces.com/contest/1805/submission/319929616
+10) https://codeforces.com/contest/1977/submission/319930818

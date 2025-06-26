@@ -1,0 +1,3 @@
+Week 10 | Topicwise | Binary Search - 1
+1) https://codeforces.com/contest/1979/submission/325254267
+2) https://codeforces.com/contest/1870/submission/325488668

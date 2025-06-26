@@ -1,0 +1,11 @@
+Week 7 | Bit Manipulation - 1:-
+1) https://codeforces.com/contest/1974/submission/321203515
+2) https://codeforces.com/contest/1975/submission/321198212
+3) https://codeforces.com/contest/1705/submission/321241988
+4) https://codeforces.com/contest/1985/submission/321245045
+
+Week 8 | Bit Manipulation - 2:-
+5) https://codeforces.com/contest/1981/submission/321164436
+
+Week 9 | Math And Number Theory - 1:- 
+6) https://codeforces.com/contest/762/submission/321261706

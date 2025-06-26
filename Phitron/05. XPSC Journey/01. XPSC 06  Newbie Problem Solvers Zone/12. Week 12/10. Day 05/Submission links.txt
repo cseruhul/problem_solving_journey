@@ -1,0 +1,4 @@
+Week 10 | Topicwise | Binary Search - 1
+1) https://cses.fi/paste/4cd6439ab3311827cbe96b/
+2) https://cses.fi/paste/49c2363243a529bccbece9/
+3) https://cses.fi/paste/ecb103ba2bd5703acbf1e6/

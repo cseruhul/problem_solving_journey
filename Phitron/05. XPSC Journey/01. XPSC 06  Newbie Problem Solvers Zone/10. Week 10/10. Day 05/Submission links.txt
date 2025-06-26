@@ -1,0 +1,4 @@
+Week 10 | Topic wise | Binary Search - 1
+1) https://codeforces.com/contest/1742/submission/322899383
+2) https://codeforces.com/problemset/submission/1538/324396074
+3) J - Where is the Marble?
