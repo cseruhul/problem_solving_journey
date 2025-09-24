@@ -1,0 +1,4 @@
+XPSC 06 | Week 1 | Binary Search - 2-
+1) https://codeforces.com/contest/2093/submission/332114844
+2) https://codeforces.com/contest/1862/submission/332115446
+3) https://codeforces.com/contest/2009/submission/332117885

@@ -12,48 +12,51 @@ public:
     {
         ll n, m, k;
         cin >> n >> m >> k;
-        set<ll> a;
-        set<ll> b;
+        vector<ll> a(n);
+        vector<ll> b(m);
 
         for (int i = 0; i < n; i++)
         {
-            ll x;
-            cin >> x;
-            a.insert(x);
+            cin >> a[i];
         }
 
         for (int i = 0; i < m; i++)
         {
-            ll x;
-            cin >> x;
-            b.insert(x);
+            cin >> b[i];
         }
 
-        set<ll> ans;
+        vector<ll> frequency(k + 1, 0);
 
-        auto ptr = a.begin();
-        for (int i = 0; i < k / 2; i++)
+        for (int i = 0; i < n; i++)
         {
-            if (*ptr <= k && ans.find(*ptr) == ans.end())
-                ans.insert(*ptr);
-            ptr++;
+            if (a[i] <= k)
+            {
+                frequency[a[i]] |= 1;
+            }
         }
-         
-        ptr = b.begin();
-        for (int i = 0; i < k / 2; i++)
-        {
-            if (*ptr <= k && ans.find(*ptr) == ans.end())
-                ans.insert(*ptr);
-            ptr++;
-        }
-        for (auto item : ans)
-            cout << item << " ";
-        cout << newline;
 
-        if (ans.size() == k)
-            cout << "YES" << newline;
-        else
+        for (int i = 0; i < m; i++)
+        {
+            if (b[i] <= k)
+            {
+                frequency[b[i]] |= 2;
+            }
+        }
+
+        // for (auto item : frequency)
+        //     cout << item << " ";
+        // cout << endl;
+
+        vector<ll> numbers(4);
+        for (int i = 0; i <= k; i++)
+        {
+            numbers[frequency[i]]++;
+        }
+
+        if (numbers[1] > k / 2 || numbers[2] > k / 2 || numbers[1] + numbers[2] + numbers[3] != k)
             cout << "NO" << newline;
+        else
+            cout << "YES" << newline;
     }
 };
 

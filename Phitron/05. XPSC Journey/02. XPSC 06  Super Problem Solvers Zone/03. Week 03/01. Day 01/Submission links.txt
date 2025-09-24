@@ -1,0 +1,5 @@
+XPSC 06 | Week 3 | Difference Array & PBDS -
+1) https://codeforces.com/contest/276/submission/336510448
+2) https://codeforces.com/contest/845/submission/336513440
+3) https://cses.fi/paste/434d35bebf7ad5e1db737e/
+4) https://codeforces.com/contest/816/submission/336524697
