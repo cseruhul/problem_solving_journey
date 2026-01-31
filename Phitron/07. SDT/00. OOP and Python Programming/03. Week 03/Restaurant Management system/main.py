@@ -1,8 +1,6 @@
 from foodItem import FoodItem
-from menu import Menu
-from orders import Order
 from restaurant import Restaurant
-from User import Customer, User, Employee, Admin
+from User import Customer, Employee, Admin
 
 
 hotel_saladiye_dhaka = Restaurant("Hotel Salal Diye Dhaka")
