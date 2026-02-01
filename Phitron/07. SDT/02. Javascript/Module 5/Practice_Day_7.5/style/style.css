@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.detailsCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    /* width: 230px; */
+    /* height: 500px; */
+    /* border: 1px solid tomato; */
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+
+.card h2 {
+    margin: 10px
+}
+
+.card h3 {
+    margin: 10px
+}
+
+.card ul {
+    padding: 20px;
+}
+
+.SearchSecton {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px ;
+    flex-wrap: wrap;
+}
+
+.searchBox {
+    height: 50px;
+    width: 600px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px;
+}
+
+.btn {
+    height: 50px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bodyCard {
+    width: 300px;
+    /* height: wrap; */
+    /* border: 1px solid tomato; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+
+.bodyCard img {
+    width: 290px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+    margin-bottom: 10px;
+}
+
+.title-not-found {
+    margin: 0px;
+    padding: 0px auto;
+}
