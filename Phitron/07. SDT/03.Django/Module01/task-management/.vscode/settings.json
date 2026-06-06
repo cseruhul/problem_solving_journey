@@ -1,0 +1,8 @@
+{
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "monaco",
+    "editor.wordWrap": "on",
+    "liveServer.settings.port": 5501,
+    "editor.inlineSuggest.suppressSuggestions": true
+}
